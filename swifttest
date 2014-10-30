@@ -1,0 +1,30 @@
+import Cocoa
+
+var str = "Hello, playground"
+
+var myVariable = 42
+myVariable = 50
+let myConstant = 42
+
+let inplicitInteger = 70
+let implicitDouble = 70.0
+let explicitDouble: Double = 70
+let explicitFloat: Float = 4
+
+let label = "The width is "
+let width = 94
+let widthLabel = label + String(width)
+
+println("hello, World")
+
+let apples = 3
+let oranges = 5
+let appleSummary = "I have \(apples) apples."
+let fruitSummary = "I have \(apples+oranges) pieces of fruit."
+
+let number1 = 4.5
+let number2 = 2.3
+
+let sum = "Total number \(number1 + number2)"
+let name = "nicolas"
+let myWord = "My name is \(name)"
